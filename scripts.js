@@ -18,4 +18,18 @@ $(document).ready(function() {
 
     event.preventDefault();
   })
+
+  $(function() {
+    $("button#dark").click(function (){
+      $("body").removeClass();
+      $("body").addClass("dark");
+    });
+  });
+
+  $(function() {
+    $("button#light").click(function (){
+      $("body").removeClass();
+      $("body").addClass("light");
+    });
+  });
 })
